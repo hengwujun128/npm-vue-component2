@@ -1,0 +1,37 @@
+{
+  "name": "npm-vue-component2",
+  "version": "1.0.0",
+  "description": "how to use webpack to publish your vue component",
+  "main": "./dist/vue-version.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base ./dev --env=webpack.dev --open --hot",
+    "dist": "webpack --env=webpack.dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hengwujun128/npm-vue-component2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hengwujun128/npm-vue-component2/issues"
+  },
+  "homepage": "https://github.com/hengwujun128/npm-vue-component2#readme",
+  "devDependencies": {
+    "vue": "^2.5.16",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "sass-loader": "^7.0.3",
+    "vue-loader": "^10.3.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
