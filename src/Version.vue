@@ -3,7 +3,7 @@
     You are using Vue {{version}}
   </div>
 </template>
- 
+
 <script type="text/javascript">
 import Vue from "vue";
 export default {
@@ -14,7 +14,7 @@ export default {
   }
 };
 </script>
- 
+
 <style>
 .version {
   font-weight: bold;
