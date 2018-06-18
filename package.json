@@ -1,6 +1,6 @@
 {
-  "name": "npm-vue-component2",
-  "version": "1.0.0",
+  "name": "get-vue-version",
+  "version": "1.0.1",
   "description": "how to use webpack to publish your vue component",
   "main": "./dist/vue-version.min.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/hengwujun128/npm-vue-component2.git"
   },
-  "author": "",
+  "author": "hengwujun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hengwujun128/npm-vue-component2/issues"
